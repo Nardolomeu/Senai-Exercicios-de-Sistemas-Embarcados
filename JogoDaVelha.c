@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 int main() {
     char tabuleiro[3][3];
        
@@ -10,14 +9,13 @@ int main() {
            
             printf("======= JOGO DA VELHA =======\n\n");
            
-           
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
             tabuleiro[i][j] = ' ';
             }
         }
        
-        printf("\n %c | %c | %c\n", tabuleiro[0][0], tabuleiro[0][1], tabuleiro[0][2]);
+            printf("\n %c | %c | %c\n", tabuleiro[0][0], tabuleiro[0][1], tabuleiro[0][2]);
             printf("---+---+---\n");
             printf(" %c | %c | %c\n", tabuleiro[1][0], tabuleiro[1][1], tabuleiro[1][2]);
             printf("---+---+---\n");
@@ -76,7 +74,6 @@ int main() {
             break;
                 }
             }
-           
             }
            
             printf("\n %c | %c | %c\n", tabuleiro[0][0], tabuleiro[0][1], tabuleiro[0][2]);
@@ -136,7 +133,6 @@ int main() {
             break;
                 }
             }
-           
             }
            
             printf("\n %c | %c | %c\n", tabuleiro[0][0], tabuleiro[0][1], tabuleiro[0][2]);
@@ -146,16 +142,5 @@ int main() {
             printf(" %c | %c | %c\n", tabuleiro[2][0], tabuleiro[2][1], tabuleiro[2][2]);
            
             }
-       
        return 0;
     }
-
-
-
-
-
-
-
-
-
-
